@@ -9,22 +9,26 @@
 
 .logo {
     width: 30px;
+    margin-right: 65px;
 }
 
 form {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background: #303030;
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
 }
 
 input {
-    background: #303030;
+    background: none;
     outline: none;
     border: none;
-    padding: 5.2px 15px;
     font-size: 15px;
-    border-radius: 20px 0 0 20px;
-    border: 1px solid #cecece;
     color: #fff;
+    margin-left: 10px;
 }
 
 form button {
@@ -32,10 +36,11 @@ form button {
     align-items: center;
     justify-content: center;
     background: #cecece;
-    border-radius: 0 50% 50% 0;
+    border-radius: 50%;
     outline: none;
     border: none;
-    padding: 5px;
+    width: 25px;
+    height: 25px;
 }
 
 .login {
@@ -55,5 +60,5 @@ form button {
 }
 
 .search {
-    width: 20px;
+    width: 15px;
 }
